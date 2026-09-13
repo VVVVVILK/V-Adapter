@@ -1,0 +1,23 @@
+# ── 敏感：运行时生成的真实配置与凭据（绝不提交）──
+data/                # data/settings.json 真实上游 key、data/auth.json 面板密码哈希
+config.json          # 启动配置里的真实 qwen_key / nai_key
+# 只提交 config.example.json（占位符版）
+
+# ── 编译产物（二进制走 GitHub Release 附件）──
+v-adapter.exe
+v-adapter
+*.exe
+
+# ── 打包 / 临时文件 ──
+*.zip
+*.log
+*.tmp
+
+# ── IDE / 系统 ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Go ──
+/vendor/

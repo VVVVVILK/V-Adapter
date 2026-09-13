@@ -1,0 +1,9 @@
+{
+  "listen": "0.0.0.0:8888",
+  "qwen_url": "http://127.0.0.1:4000/v1",
+  "qwen_key": "sk-你的上游密钥",
+  "qwen_model": "qwen-image-2.0",
+  "default_size": "1024x1024",
+  "nai_key": "v-adapter-8888",
+  "chat_fallback": "auto"
+}
